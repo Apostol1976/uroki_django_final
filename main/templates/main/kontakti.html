@@ -1,0 +1,85 @@
+{% extends "main/base.html" %} {% load static %} {% block content %}
+<div class="c my-5">
+  <p>
+    Lorem ipsum dolor sit, amet consectetur adipisicing elit. Officiis,
+    inventore at earum molestiae facere labore veritatis. Odit rerum ut
+    accusantium sapiente commodi? Obcaecati dignissimos dicta quod, aut
+    veritatis explicabo inventore odio perspiciatis quisquam magni ut? Quis,
+    porro illo tempore reprehenderit perspiciatis sequi accusantium ducimus
+    voluptatibus quibusdam commodi nemo fugit nobis, illum repellat earum est
+    animi debitis modi aut consequatur mollitia blanditiis adipisci! Quas, odit.
+    Nisi asperiores nostrum fuga atque consequuntur odit nihil, facilis
+    explicabo corrupti eius aperiam maiores blanditiis itaque placeat hic culpa
+    accusantium soluta quisquam id. Facilis tempore illum dolore voluptatibus
+    eaque expedita eligendi sunt numquam. Et facilis rerum id! Laboriosam
+    consequatur nihil magni dolor ipsa atque in dolorum quasi omnis quia? Amet
+    pariatur facere adipisci ad dignissimos molestiae? Deleniti magnam alias
+    perferendis rem sapiente libero id harum neque in, fuga officiis tempora,
+    magni facere! Molestias, alias, corrupti quasi nostrum laudantium
+    repellendus fuga asperiores, eligendi laborum provident ex fugit!
+  </p>
+</div>
+<div class="container">
+  <div
+    id="carouselExampleIndicators"
+    class="carousel slide"
+    data-ride="carousel"
+  >
+    <div class="carousel-indicators">
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="0"
+        class="active"
+        aria-current="true"
+        aria-label="Slide 1"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="1"
+        aria-label="Slide 2"
+      ></button>
+      <button
+        type="button"
+        data-bs-target="#carouselExampleIndicators"
+        data-bs-slide-to="2"
+        aria-label="Slide 3"
+      ></button>
+    </div>
+
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="{% static "media/DRUTEX_SHOWROOM_19.jpg" %}" class="d-block
+        w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "media/DRUTEX_SHOWROOM_10.jpg" %}" class="d-block
+        w-100" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="{% static "media/DRUTEX_SHOWROOM_18.jpg" %}" class="d-block
+        w-100" alt="...">
+      </div>
+    </div>
+    <button
+      class="carousel-control-prev"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="prev"
+    >
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Предыдущий</span>
+    </button>
+    <button
+      class="carousel-control-next"
+      type="button"
+      data-bs-target="#carouselExampleIndicators"
+      data-bs-slide="next"
+    >
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Следующий</span>
+    </button>
+  </div>
+</div>
+{% endblock %}
