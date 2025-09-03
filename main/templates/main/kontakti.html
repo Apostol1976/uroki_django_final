@@ -19,67 +19,34 @@
     repellendus fuga asperiores, eligendi laborum provident ex fugit!
   </p>
 </div>
-<div class="container">
-  <div
-    id="carouselExampleIndicators"
-    class="carousel slide"
-    data-ride="carousel"
-  >
-    <div class="carousel-indicators">
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="0"
-        class="active"
-        aria-current="true"
-        aria-label="Slide 1"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="1"
-        aria-label="Slide 2"
-      ></button>
-      <button
-        type="button"
-        data-bs-target="#carouselExampleIndicators"
-        data-bs-slide-to="2"
-        aria-label="Slide 3"
-      ></button>
-    </div>
 
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="{% static "media/DRUTEX_SHOWROOM_19.jpg" %}" class="d-block
-        w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="{% static "media/DRUTEX_SHOWROOM_10.jpg" %}" class="d-block
-        w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="{% static "media/DRUTEX_SHOWROOM_18.jpg" %}" class="d-block
-        w-100" alt="...">
-      </div>
+<div class="row">
+  <div class="col-md-8 col-sm-12">
+    <div class="about-1">
+      <h2 class="mt-5 text-white"><strong>{{ content }}</strong></h2>
+      <p class="m-2 text-white">{{ text_on_page }}</p>
+      <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2175.3026992408886!2d24.127853696272485!3d56.96074723012985!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x46eecfcac3ce638b%3A0x72f4cc0eeaf73399!2zQnLEq3bEq2JhcyBpZWxhIDEwMCwgQ2VudHJhIHJham9ucywgUsSrZ2EsIExWLTEwMDE!5e0!3m2!1sru!2slv!4v1721743568650!5m2!1sru!2slv"
+        width="800"
+        height="600"
+        style="border: 0"
+        allowfullscreen=""
+        loading="lazy"
+        referrerpolicy="no-referrer-when-downgrade"
+      ></iframe>
     </div>
-    <button
-      class="carousel-control-prev"
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="prev"
-    >
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Предыдущий</span>
-    </button>
-    <button
-      class="carousel-control-next"
-      type="button"
-      data-bs-target="#carouselExampleIndicators"
-      data-bs-slide="next"
-    >
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Следующий</span>
-    </button>
+  </div>
+  <div class="col-md-4 col-sm-12 text-center">
+    <h2 class="my-1">About Us</h2>
+    <p>
+      Lorem ipsum dolor, sit amet consectetur adipisicing elit. Amet laboriosam
+      distinctio cum, dolores modi obcaecati voluptas in nihil magnam quasi
+      soluta dignissimos ad nesciunt rerum nam vitae eos? Molestiae expedita
+      ratione tenetur vel doloremque soluta, ex adipisci explicabo vitae a
+      impedit facilis repudiandae dolore voluptatem aperiam provident nobis, qui
+      ipsam.
+    </p>
   </div>
 </div>
+
 {% endblock %}
